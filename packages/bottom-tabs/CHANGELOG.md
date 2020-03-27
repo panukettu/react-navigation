@@ -3,6 +3,81 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.3.0 (2020-03-27)
+
+
+### Bug Fixes
+
+* add licenses ([0c159db](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* allow making params optional. fixes [#80](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/80) ([a9d4813](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/a9d4813b472f040381b8e2e3e04562b2427f6f02))
+* change opacity for hidden tabs only when not using rn-screens ([#80](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/80)) ([6490049](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/64900495f43c0223e3dd53fcd9157ccf4c466194)), closes [#5382](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/5382)
+* correctly reset _isTabPress property ([80b7f1d](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/80b7f1d10235c8858e551988d56055424c829170))
+* don't use native driver on web ([0a982ee](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/0a982ee6984b24c0ba053a30223e255f3835e050))
+* don't use react-native-screens on web ([b1a65fc](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/b1a65fc73e8603ae2c06ef101a74df31e80bb9b2)), closes [#7485](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/7485)
+* fix accessibility label in bottom tab bar ([448fa64](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/448fa642edcc282cd18ac034fd5baa6529a6c0f8))
+* fix default BottomTabBar button ([#161](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/161)) ([22cb675](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/22cb675608d908a4a7049def555f94f592abf052))
+* fix hit slop for bottom tab bar ([#110](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/110)) ([ce3670b](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/ce3670b36ec3a14c9f0e73bc53c58c4c9ddf7f0f))
+* fix path to typescript definitions ([f182315](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/f18231541b3ea7efd31ef7550011b4684f3dfa43))
+* fix peer deps and add git urls ([6b4fc74](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/6b4fc7459278a3ae2a50fda1f5ba4691bc2b807b))
+* fix tabBarOnPress with MaterialTopTabs and fix isFocused ([#21](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/21)) ([491ee81](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/491ee81edadce9b9a437c63ae22e873e0a42009e))
+* hide inactive pages from screen reader in tabs ([#148](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/148)) ([58f7115](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/58f7115298a0d0da43c7e4fcaf97ade03b64cd7c))
+* import SceneView from react-navigation default export ([5d5f4d1](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/5d5f4d1cc311c289c55a884adc0a8512a5a09175))
+* improve keyboard handling with bottom tab bar ([42beb66](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/42beb660ca6209068ae7f0c1ea0e0bec1efac1c7))
+* increase padding for iOS horizontal label alignment ([#114](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/114)) ([4adb3a9](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/4adb3a9223c9fc9875e86d9865bf92257dd172f5)), closes [#113](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/113)
+* initialize height and width to zero if undefined ([3df65e2](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/3df65e28197db3bb8371059146546d57661c5ba3)), closes [#6789](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/6789)
+* initialize keyboard-hiding tabBar to visible=true ([#6740](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/6740), [#6799](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/6799)) ([0c59ef7](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/0c59ef7328c63108a2a2c04e927794d73cead63a))
+* iPad / horizontal layout works as expected in BottomTabBar ([3bb5ec4](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/3bb5ec402f1fd88480ebc29c01c21fed3d59488b))
+* make bottom tab bar consistent across platforms ([d1ca7f9](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/d1ca7f9a094cbe7fab7fa4a6581ddc1fe5ebc85d))
+* make it possible to run the example on web ([7a901af](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/7a901af5b5010982aec439256fc3e7aacf7b59d7))
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/265)
+* NavigationActions.popToTop no longer exists, belongs to StackActions now ([273131f](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/273131f607b9f370d1aeef72396c1611ce83edab))
+* provide initial values for safe area to prevent blank screen ([#238](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/238)) ([77b7570](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/77b757091c0451e20bca01138629669c7da544a8))
+* provide navigation prop in header ([30e510d](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/30e510d123e2fd494103efe47d322689c55937fd))
+* provide route context to header and bottom tabs ([b6e7e08](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/b6e7e08b9a05be6c04ed21e938b9580876239116))
+* remove tab icon wrapper to fix adaptive icons ([3fdb3d9](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/3fdb3d92939e16ac1429925a0360e0719b9e3c26))
+* specify default values for getAccessibilityX ([3c7918d](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/3c7918dfbe044f2e0cb0c22153a6a37203b35f8b)), closes [#116](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/116)
+* tweak hitSlop on bottom tab bar buttons ([a5514a2](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/a5514a2f24fe7afdc9b923d8c65b130f8961adb8))
+* types path ([#75](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/75)) ([b4a5c3c](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/b4a5c3c35e20fce6343f12d515f611c46d23533f))
+* typo in accessibilityLabel ([57a0d46](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/57a0d4635088efcfb2a473c6deabe278e2ffe1c9))
+* use layout instead of dimensions for determining tab bar layout ([f1fe951](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/f1fe951cf9d602e1b6d4932e3c6c77bbeaaec5c0))
+* use react-lifecycles-compat for async mode compatibility ([93b45f2](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/93b45f22b9deaffdab4b51135689b364a88636fd))
+* use the JUMP_TO action for tab change ([242625a](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/242625aa2957e46f1caba817b3d5328822225517))
+* workaround SafereaProvider causing jumping ([c17ad18](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/c17ad18b20cb05c577e1235a58ccc1c856fee086)), closes [#174](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/174)
+
+
+### Features
+
+* add ability add listeners with listeners prop ([1624108](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/162410843c4f175ae107756de1c3af04d1d47aa7)), closes [#6756](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/6756)
+* add ability to render label beside the icon ([#103](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/103)) ([8f70ebb](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/8f70ebb0d6b123ef4350279ff0e9cc76fc13cd42))
+* add accessibility role and state to bottom bar ([#90](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/90)) ([73e9b4c](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/73e9b4cb8facab93e4153b63224cca78a6410119))
+* add accessibilityLabel and testID options ([#26](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/26)) ([4cc91d1](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/4cc91d19baa6ea31642494f61bf0c8f601293ce0))
+* add an 'unmountInactiveScreens' option ([12d597f](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/12d597fcc0107ecddf4523761e5da5b934d067c0))
+* add an option to swap out TouchableWithoutFeedback for another component ([#27](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/27)) ([34b0e5d](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/34b0e5d5ba3e9d29f3518768b26be02186a91af8))
+* add custom theme support ([#211](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/211)) ([00fc616](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/00fc616de0572bade8aa85052cdc8290360b1d7f))
+* add defaultHandler argument to tabBarOnPress. fixes [#22](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/22) ([267e9ec](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/267e9ecf0a90b6e399acecc5a3cfaf94c46f6a42))
+* add hook to scroll to top on tab press ([9e1104c](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/9e1104c31ff4b63099d38f4f2b5b7e33d8e82ce7))
+* add lazy option. fixes [#23](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/23) ([2a80c11](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/2a80c116919be9606c9f564ee82e83851b0928f0))
+* add safeAreaInsets to bottom tabs ([82af7be](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/82af7bed7135e42e24693b48cf7f1c6f9f5a6981))
+* export BottomTabBar props type ([#109](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/109)) ([1fd5a86](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/1fd5a868a32cc46f62414ab1eaefeb629e3eba33))
+* export individual navigators separately. fixes [#2](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/2) ([65b0c46](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/65b0c46ae1971afd5bb0faa4f63ee52fe1c37857))
+* export some more type aliases ([8b78d61](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/8b78d617c05cddef7161ab5519008543adc1bd46))
+* export tab bars ([a4ead48](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/a4ead48813771517508ae295dccdb2917241c7cd))
+* export underlying views used to build navigators ([#191](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/191)) ([d618ab3](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/d618ab382ecc5eccbcd5faa89e76f9ed2d75f405))
+* hide tab bar when keyboard is shown ([#112](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/112)) ([ccb2d38](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/ccb2d380891a3dfbfbeca17de0bd6c4501c4fe08)), closes [#16](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/16)
+* implement various navigators ([f0b80ce](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/f0b80ce0f64fb77c1c2ff8130ee353b749559828))
+* initial commit ([89934b9](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/89934b93c06a0319262b05928b25a267b83c7be8))
+* initial version of native stack ([#102](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/102)) ([ba3f718](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/ba3f718ab3868ddd5754b22945a867fdf7e93b7f))
+* lazy initialized MaterialTopTabNavigator routes ([#9](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/9)) ([18fa131](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/18fa1315cf9b8e302d9a0660cb62e1c54dcf4ac3))
+* let the navigator specify if default can be prevented ([da67e13](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/da67e134d2157201360427d3c10da24f24cae7aa))
+* make example run as bare react-native project as well ([#85](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/85)) ([d16c20c](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/d16c20cd390000cd960ad753001386142eb9e281))
+* put material bottom tabs in another repository ([42e35f5](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/42e35f5028089e2b95db8cad73e6b7cce34871dd))
+* upgrade react-native-tab-view to 2.0 ([d8b4774](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/d8b47741389a5519d4e16105413b5f5be6165746))
+* use resource saving view for scenes. fixes [#3](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/issues/3) ([fd2c352](https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs/commit/fd2c35224f39f615c09edba68e93053b45ee4eba))
+
+
+
+
+
 ## [5.2.4](https://github.com/react-navigation/react-navigation/tree/master/packages/bottom-tabs/compare/@react-navigation/bottom-tabs@5.2.3...@react-navigation/bottom-tabs@5.2.4) (2020-03-23)
 
 **Note:** Version bump only for package @react-navigation/bottom-tabs

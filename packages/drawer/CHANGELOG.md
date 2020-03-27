@@ -3,6 +3,74 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.4.0 (2020-03-27)
+
+
+### Bug Fixes
+
+* add flex: 1 to drawer content ([2b57702](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/2b57702a62bbe80caae51aa29c50437b6dab8d31))
+* add licenses ([0c159db](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* close drawer on pressing Esc on web ([5c4afc5](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/5c4afc5cb40c1206a9d8c40efe3cf947030da48e)), closes [#6745](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/6745)
+* delay showing drawer by one frame after layout ([e0c3298](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/e0c3298e64970dc01a61401cfbd7a623eb0fd735))
+* don't use react-native-screens on web ([b1a65fc](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/b1a65fc73e8603ae2c06ef101a74df31e80bb9b2)), closes [#7485](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/7485)
+* enable gestures by default in drawer. closes [#188](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/188) ([7080517](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/7080517c914b4821e07a6320de94660e50d02950))
+* fix "DrawerActions" typo ([#65](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/65)) ([57e0af2](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/57e0af214ab210626fe0c57bb05e0adf9f554903))
+* fix content component not rendering in drawer ([0a5fb3e](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/0a5fb3e268160586febed7fce14aecb294dd25aa))
+* fix drawerType=back when drawer is on right ([9198597](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/9198597b7f0a34fbe3844ec86a8b82171036f8ed)), closes [#316](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/316)
+* fix passing content options in drawer ([cab6160](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/cab616069fdbdfb544865085fb712a417d18d639))
+* fix path to typescript definitions ([f182315](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/f18231541b3ea7efd31ef7550011b4684f3dfa43))
+* fix peer deps and add git urls ([6b4fc74](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/6b4fc7459278a3ae2a50fda1f5ba4691bc2b807b))
+* fix permanent sidebar position ([#7830](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/7830)) ([3ea8eec](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/3ea8eec4324ea82f0ed427f4662e68e1115e60ab))
+* get rid of random red screen on iOS on opening drawer ([#68](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/68)) ([3c4f10d](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/3c4f10d6cd2bcb82fee19106a059b375cba7da38))
+* handle back button in drawer itself ([0e8fda3](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/0e8fda319685a34090cfe82da08084c156eb5783))
+* hide screen from screen reader when drawer is open ([#147](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/147)) ([fb749ac](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/fb749ac06444ad3f5f23d8022f0ce3f25a1ba193))
+* immediate closing drawer of fully opened ([3f64539](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/3f64539ceed6676b3e539bf719900cf7f48565be))
+* initialize height and width to zero if undefined ([3df65e2](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/3df65e28197db3bb8371059146546d57661c5ba3)), closes [#6789](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/6789)
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/265)
+* navigation drawer sometimes not closing when pressed outside ([0d8cdc8](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/0d8cdc8a27c243595b1fce6363fd5e0964f43aa9))
+* only pass accessibility label if it is a string. fixes [#36](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/36) ([#38](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/38)) ([bbe20db](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/bbe20dbe52c17a728878e64526810dfc98d19f1b))
+* pass backBehavior to the router in drawer. fixes [#230](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/230) ([3cd1aed](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/3cd1aedcf490a4c7962b2d36873d714637f3b9b0))
+* pass labelStyle prop in DrawerItem label ([#170](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/170)) ([cd7c9c4](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/cd7c9c4398ce12a1e965786d91fdbe6e3c42ee0a))
+* prevent ripple from bleeding out of drawer item ([688d16d](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/688d16de5d9f4c5116b92e3ebf3029b56a659d7a)), closes [#6801](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/6801)
+* provide initial values for safe area to prevent blank screen ([#238](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/238)) ([77b7570](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/77b757091c0451e20bca01138629669c7da544a8))
+* remove unnecessary borderless from drawer item ([031136f](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/031136f7c86eff3c9139d1baa243da9f19bc61d4)), closes [#6801](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/6801)
+* rename contentContainerStyle to sceneContainerStyle for drawer ([fdc24d2](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/fdc24d2523b01703b42b46b1670857b7d31ce3d4))
+* reset this.gestureX on manual setting ([2a1620d](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/2a1620d3de82e333dbe65ef699f74a6aff977ab2))
+* rewrite tap callbacks to native calls ([d4c51f4](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/d4c51f40127b344ec6edfcfad4c71323c6a3b706))
+* screens integration on Android ([#294](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/294)) ([9bfb295](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/9bfb29562020c61b4d5c9bee278bcb1c7bdb8b67))
+* set screen background in drawer from theme ([0635365](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/0635365483bf5ac38e75191b4ba8f52cf6d73896))
+* spring was not triggered sometimes on tap ([#67](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/67)) ([8bbddb2](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/8bbddb21bc49375bc1caaa614d4a7b2cd053571a))
+* tweak spring config for animation ([7946b9d](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/7946b9d333d8d8e0d344f3b12c74bc51db8c8857))
+* update screens for native stack ([5411816](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/54118161885738a6d20b062c7e6679f3bace8424))
+* workaround SafereaProvider causing jumping ([c17ad18](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/c17ad18b20cb05c577e1235a58ccc1c856fee086)), closes [#174](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/174)
+* wrap navigators in gesture handler root ([41a5e1a](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/41a5e1a385aa5180abc3992a4c67077c37b998b9))
+
+
+### Features
+
+* add ability add listeners with listeners prop ([1624108](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/162410843c4f175ae107756de1c3af04d1d47aa7)), closes [#6756](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/6756)
+* add an 'unmountInactiveScreens' option ([12d597f](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/12d597fcc0107ecddf4523761e5da5b934d067c0))
+* add custom GH props ([35d7304](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/35d73045338eeaeb6409473441bd274f89b25d7b))
+* add custom theme support ([#211](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/211)) ([00fc616](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/00fc616de0572bade8aa85052cdc8290360b1d7f))
+* add interaction handle to drawer ([#239](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/239)) ([fa4411a](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/fa4411a14dc4aae568794e4b884088e3276a2876))
+* add permanent drawer type ([#7818](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/7818)) ([6a5d0a0](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/6a5d0a035afae60d91aef78401ec8826295746fe))
+* add useIsDrawerOpen hook ([#299](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/299)) ([ecd68af](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/ecd68afb46a4c56200748da5e5fb284fa5a839db))
+* disable pan gesture by default in the browser for Apple devices ([b277927](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/b2779279251b1f157ba825cc34e39046b44f00d8)), closes [#287](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/287)
+* emit appear and dismiss events for native stack ([f1df4a0](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/f1df4a080877b3642e748a41a5ffc2da8c449a8c))
+* export some more type aliases ([8b78d61](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/8b78d617c05cddef7161ab5519008543adc1bd46))
+* export underlying views used to build navigators ([#191](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/191)) ([d618ab3](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/d618ab382ecc5eccbcd5faa89e76f9ed2d75f405))
+* implement various navigators ([f0b80ce](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/f0b80ce0f64fb77c1c2ff8130ee353b749559828))
+* initial version of native stack ([#102](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/102)) ([ba3f718](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/ba3f718ab3868ddd5754b22945a867fdf7e93b7f))
+* integrate with history API on web ([5a3f835](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/5a3f8356b05bff7ed20893a5db6804612da3e568))
+* let the navigator specify if default can be prevented ([da67e13](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/da67e134d2157201360427d3c10da24f24cae7aa))
+* make example run as bare react-native project as well ([#85](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/85)) ([d16c20c](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/d16c20cd390000cd960ad753001386142eb9e281))
+* make useIsDrawerOpen workable inside drawer content ([#7746](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/7746)) ([cb46d0b](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/cb46d0bca4e17e847fff46ac94276213ac9697bf))
+* Move itemStyle to SafeAreaView ([#55](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/issues/55)) ([a59ed91](https://github.com/panukettu/react-navigation/tree/master/packages/drawer/commit/a59ed91aadccf2ffcee3fa1bf7719c2ef5a623d5))
+
+
+
+
+
 ## [5.3.4](https://github.com/react-navigation/react-navigation/tree/master/packages/drawer/compare/@react-navigation/drawer@5.3.3...@react-navigation/drawer@5.3.4) (2020-03-23)
 
 **Note:** Version bump only for package @react-navigation/drawer

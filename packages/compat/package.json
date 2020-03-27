@@ -1,7 +1,7 @@
 {
   "name": "@pkettu/compat",
   "description": "Compatibility layer to write navigator definitions in static configuration format",
-  "version": "5.1.6",
+  "version": "5.2.0",
   "license": "MIT",
   "repository": "https://github.com/panukettu/react-navigation/tree/master/packages/compat",
   "bugs": {

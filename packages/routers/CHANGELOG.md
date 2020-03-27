@@ -3,6 +3,51 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.3.0 (2020-03-27)
+
+
+### Bug Fixes
+
+* add licenses ([0c159db](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* change POP behaviour to remove elements from index only ([7a3d652](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/7a3d652e847e173964a06cc9d859129ca0317861)), closes [#256](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/256)
+* close drawer on back button press ([3a4c38b](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/3a4c38bb723750702296f36578535cef1f9f14c1))
+* close drawer on navigate ([655a220](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/655a2201370a554bb0f98372f4ac4314e00a725d))
+* don't handle action if no routes are present ([660cac3](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/660cac3557bce8978812ce2750e961e7ada92d13))
+* don't lose child state when rehydrating in tab router ([5676dea](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/5676dea5ac65ab9322edabd14f89d5ceeac5971d))
+* don't use action.source for stack router ([afa24c1](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/afa24c110e797ef1eea5f02ac7748af098cd5cde))
+* fix links for documentation ([5bb0f40](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/5bb0f405ceb5755d39a0b5b1f2e4ecee0da051bc))
+* fix path to typescript definitions ([f182315](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/f18231541b3ea7efd31ef7550011b4684f3dfa43))
+* fix peer deps and add git urls ([6b4fc74](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/6b4fc7459278a3ae2a50fda1f5ba4691bc2b807b))
+* handle invalid initialRouteName gracefully ([b5d9ad9](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/b5d9ad900d2940e8c09fe0a0e8c4325d4ba06ec4))
+* handle partial initial state better when rehydrating ([8ed54da](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/8ed54dace4e77226cb759e510be9a7e214548a9c))
+* handle popping more than available screens in stack ([68ed8a7](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/68ed8a725950f39228847ab10b3dd7f3ebd2e2dc))
+* handle route names change when all routes are removed ([#86](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/86)) ([1b2983e](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/1b2983eaa9e3ec6487d0fcdc661424b312247656))
+* implement canGoBack for tab router ([#51](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/51)) ([2b8f2ed](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/2b8f2edfd1fc5a67a3c42caf5dba53cea949ca92))
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/265)
+* merge initial params on push ([11efb06](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/11efb066429a3fc8b7e8e48d897286208d9a5449))
+* merge initial params on replace ([80629bf](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/80629bf30baf8f17620e6d3127e00376182af074))
+* preserve focused route in tab on changing screens list ([adbeb29](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/adbeb292f522be8d7a58dd3f84e560a6d83d01a8))
+* properly handle pop action from stack ([61dce7a](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/61dce7ae1b71da71389a0ce035dfc7b25d803ad2))
+* tweak error message for navigate ([c8ea419](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/c8ea4199f4b19a58d5e409cfcc96e587fe354a9a))
+* use index of first route when rehydrating tab state ([7635373](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/7635373366c03ec6f703554c402d4ededf7aa48e))
+
+
+### Features
+
+* add a simple stack and material tabs integration ([#39](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/39)) ([e0bee10](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/e0bee10e6b6c802ce38f5334206b61bb8124f7ad))
+* add a target key to actions and various fixes ([747ce66](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/747ce6692749f886cd4663895bafbbc4777e6d63))
+* add canGoBack ([#50](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/50)) ([e9da86e](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/e9da86e42fbe8ac98d90b3f2a7d1efb66f2e2d1e))
+* add drawer navigator integration ([#43](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/43)) ([d02277b](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/d02277b30d64403f1a9f58b8ce91d71c3383be72))
+* add hook for deep link support ([35987ae](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/35987ae3699b44cb47b39ea0c050b4074e77aad6))
+* add keys to routes missing keys during reset ([813a590](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/813a5903b5f44506b9097538ed85229e565b855e))
+* handle navigating with both with both key and name ([#83](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/83)) ([6b75cba](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/6b75cbaaa6b67493638c460e56f71c4da23c606c))
+* integrate reanimated based stack ([#42](https://github.com/panukettu/react-navigation/tree/master/packages/routers/issues/42)) ([dcf57c0](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/dcf57c095c493223448bb9c5a302a2140af5562b))
+* make reset bubble up ([09f6808](https://github.com/panukettu/react-navigation/tree/master/packages/routers/commit/09f6808d7d43c70b2c502151f9f20fad03972886))
+
+
+
+
+
 # [5.2.0](https://github.com/react-navigation/react-navigation/tree/master/packages/routers/compare/@react-navigation/routers@5.1.1...@react-navigation/routers@5.2.0) (2020-03-22)
 
 

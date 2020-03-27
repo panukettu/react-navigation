@@ -3,6 +3,45 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 5.2.0 (2020-03-27)
+
+
+### Bug Fixes
+
+* add info about android launchMode in useLinking error ([d94e43c](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/d94e43c3c8625b209a5c883b8cb560496d07fda7))
+* add licenses ([0c159db](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/0c159db4c9bc85e83b5cfe6819ab2562669a4d8f))
+* don't call getNode if ref is already scrollable ([#162](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/162)) ([66551f2](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/66551f29d48e0ab1e707c0be962d4db867226225))
+* fix path to typescript definitions ([f182315](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/f18231541b3ea7efd31ef7550011b4684f3dfa43))
+* fix peer deps and add git urls ([6b4fc74](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/6b4fc7459278a3ae2a50fda1f5ba4691bc2b807b))
+* fix stack nested in tab always getting reset ([dead4e8](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/dead4e826a91915dc5902c7faf83a58efec845d8))
+* handle both null and undefined in useScrollToTop ([c951027](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/c951027ebb7a7cc4102fa5a064af17ae036a6d44))
+* make getInitialState async on web ([6c6102b](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/6c6102b4597b5f0e3eada9e802bc5c171ee988d0))
+* make sure paths aren't aliased when building definitions ([65a5dac](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/65a5dac2bf887f4ba081ab15bd4c9870bb15697f)), closes [#265](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/265)
+* support scroll to top in navigators nested in tab ([50dea65](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/50dea653771031f10bf66e9a192c7a192952b92b))
+
+
+### Features
+
+* add custom theme support ([#211](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/211)) ([00fc616](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/00fc616de0572bade8aa85052cdc8290360b1d7f))
+* add error if multiple instances of useLinking are used ([#310](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/310)) ([4bc0c8f](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/4bc0c8f66f98c0f8ce4e766648125640d01780c4))
+* add hook for deep link support ([35987ae](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/35987ae3699b44cb47b39ea0c050b4074e77aad6))
+* add hook to scroll to top on tab press ([9e1104c](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/9e1104c31ff4b63099d38f4f2b5b7e33d8e82ce7))
+* add native container ([d26b77f](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/d26b77f9c977cec122c343d10fd2cd0a59596058))
+* add native container with back button integration ([#48](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/48)) ([b7735af](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/b7735af7fccccf231cc61eed1ba7fa3e841f770d))
+* add nested config in deep linking ([#210](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/210)) ([8002d51](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/8002d5179524a7211c37760a4ed45e8c12af4358)), closes [#154](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/154)
+* add permanent drawer type ([#7818](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/7818)) ([6a5d0a0](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/6a5d0a035afae60d91aef78401ec8826295746fe))
+* handle animated component wrappers in `useScrollToTop` ([#81](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/81)) ([cdbf1e9](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/cdbf1e97f9648230ba1239b99791193e08ba0989))
+* handle more methods in useScrollToTop ([f9e8c7e](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/f9e8c7e80f6f327ffe62cdbd4bc1af8ed3420d5c))
+* initial version of native stack ([#102](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/102)) ([ba3f718](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/ba3f718ab3868ddd5754b22945a867fdf7e93b7f))
+* integrate with history API on web ([5a3f835](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/5a3f8356b05bff7ed20893a5db6804612da3e568))
+* let the navigator specify if default can be prevented ([da67e13](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/da67e134d2157201360427d3c10da24f24cae7aa))
+* make deep link handling more flexible ([849d952](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/849d952703b500a9781fd201e4525e712cd3338f))
+* make example run as bare react-native project as well ([#85](https://github.com/panukettu/react-navigation/tree/master/packages/native/issues/85)) ([d16c20c](https://github.com/panukettu/react-navigation/tree/master/packages/native/commit/d16c20cd390000cd960ad753001386142eb9e281))
+
+
+
+
+
 ## [5.1.3](https://github.com/react-navigation/react-navigation/tree/master/packages/native/compare/@react-navigation/native@5.1.2...@react-navigation/native@5.1.3) (2020-03-23)
 
 

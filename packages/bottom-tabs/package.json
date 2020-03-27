@@ -1,7 +1,7 @@
 {
   "name": "@pkettu/bottom-tabs",
   "description": "Bottom tab navigator following iOS design guidelines",
-  "version": "5.2.4",
+  "version": "5.3.0",
   "keywords": [
     "react-native-component",
     "react-component",

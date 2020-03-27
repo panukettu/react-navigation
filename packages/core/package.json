@@ -1,7 +1,7 @@
 {
   "name": "@pkettu/core",
   "description": "Core utilities for building navigators",
-  "version": "5.3.1",
+  "version": "5.4.0",
   "keywords": [
     "react",
     "react-native",

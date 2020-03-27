@@ -1,7 +1,7 @@
 {
   "name": "@pkettu/material-bottom-tabs",
   "description": "Integration for bottom navigation component from react-native-paper",
-  "version": "5.1.6",
+  "version": "5.2.0",
   "keywords": [
     "react-native-component",
     "react-component",

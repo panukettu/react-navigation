@@ -1,7 +1,7 @@
 {
   "name": "@pkettu/material-top-tabs",
   "description": "Integration for the animated tab view component from react-native-tab-view",
-  "version": "5.1.6",
+  "version": "5.2.0",
   "keywords": [
     "react-native-component",
     "react-component",
