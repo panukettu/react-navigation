@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/stack",
+  "name": "@pkettu/stack",
   "description": "Stack navigator component for iOS and Android with animated transitions and gestures",
   "version": "5.2.7",
   "keywords": [
@@ -12,7 +12,7 @@
     "stack"
   ],
   "license": "MIT",
-  "repository": "https://github.com/react-navigation/react-navigation/tree/master/packages/stack",
+  "repository": "https://github.com/panukettu/react-navigation/tree/master/packages/stack",
   "bugs": {
     "url": "https://github.com/react-navigation/react-navigation/issues"
   },

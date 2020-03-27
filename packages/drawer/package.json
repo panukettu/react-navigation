@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/drawer",
+  "name": "@pkettu/drawer",
   "description": "Drawer navigator component with animated transitions and gesturess",
   "version": "5.3.4",
   "keywords": [
@@ -13,7 +13,7 @@
     "drawer"
   ],
   "license": "MIT",
-  "repository": "https://github.com/react-navigation/react-navigation/tree/master/packages/drawer",
+  "repository": "https://github.com/panukettu/react-navigation/tree/master/packages/drawer",
   "bugs": {
     "url": "https://github.com/react-navigation/react-navigation/issues"
   },

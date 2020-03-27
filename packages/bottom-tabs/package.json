@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/bottom-tabs",
+  "name": "@pkettu/bottom-tabs",
   "description": "Bottom tab navigator following iOS design guidelines",
   "version": "5.2.4",
   "keywords": [
@@ -12,7 +12,7 @@
     "tab"
   ],
   "license": "MIT",
-  "repository": "https://github.com/react-navigation/react-navigation/tree/master/packages/bottom-tabs",
+  "repository": "https://github.com/panukettu/react-navigation/tree/master/packages/bottom-tabs",
   "main": "lib/commonjs/index.js",
   "react-native": "src/index.tsx",
   "module": "lib/module/index.js",

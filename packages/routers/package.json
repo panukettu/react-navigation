@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/routers",
+  "name": "@pkettu/routers",
   "description": "Routers to help build custom navigators",
   "version": "5.2.0",
   "keywords": [
@@ -8,7 +8,7 @@
     "react-navigation"
   ],
   "license": "MIT",
-  "repository": "https://github.com/react-navigation/react-navigation/tree/master/packages/routers",
+  "repository": "https://github.com/panukettu/react-navigation/tree/master/packages/routers",
   "bugs": {
     "url": "https://github.com/react-navigation/react-navigation/issues"
   },

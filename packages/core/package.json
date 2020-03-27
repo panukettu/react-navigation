@@ -1,5 +1,5 @@
 {
-  "name": "@react-navigation/core",
+  "name": "@pkettu/core",
   "description": "Core utilities for building navigators",
   "version": "5.3.1",
   "keywords": [
@@ -8,9 +8,9 @@
     "react-navigation"
   ],
   "license": "MIT",
-  "repository": "https://github.com/react-navigation/react-navigation/tree/master/packages/core",
+  "repository": "https://github.com/panukettu/react-navigation/tree/master/packages/core",
   "bugs": {
-    "url": "https://github.com/react-navigation/react-navigation/issues"
+    "url": "https://github.com/panukettu/react-navigation/issues"
   },
   "homepage": "https://reactnavigation.org",
   "main": "lib/commonjs/index.js",
