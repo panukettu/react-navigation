@@ -24,5 +24,5 @@ export default function useSyncState<T>(initialState?: (() => T) | T) {
     setTrackingState(state);
   }, []);
 
-  return [state, getState, setState] as const;
+  return [state, getState, setState];
 }
