@@ -29,8 +29,7 @@ import * as React from 'react';
  * @prop {() => boolean} navigation.isFocused
  * @prop {() => object | undefined} navigation.dangerouslyGetParent
  * @prop {State} navigation.state
- * @prop {object} emitter
- * @prop {(type: string, data: { target: string, data: Payload}) => void} emitter.emit
+ * @prop {(target: string, type: string, data: any) => void} onEvent
  *
  * @extends {React.Component<Props>}
  */
@@ -53,7 +52,7 @@ export default class NavigationEventManager extends React.Component {
    * @param {ParentPayload} payload
    */
   _handleAction = ({ state, lastState, action, type, context }) => {
-    const { emitter } = this.props;
+    const { onEvent } = this.props;
 
     const previous = lastState?.routes[lastState.index];
     const current = state.routes[state.index];
@@ -75,11 +74,13 @@ export default class NavigationEventManager extends React.Component {
       state.isTransitioning === false
     ) {
       if (previous) {
-        emitter.emit('didBlur', { target: previous.key, data: payload });
+        onEvent(previous.key, 'didBlur', payload);
       }
 
-      emitter.emit('didFocus', { target: current.key, data: payload });
+      onEvent(current.key, 'didFocus', payload);
     }
+
+    onEvent(current.key, 'action', payload);
   };
 
   /**
@@ -153,12 +154,12 @@ export default class NavigationEventManager extends React.Component {
    * @param {Payload} payload
    */
   _emitFocus = (target, payload) => {
-    const { navigation, emitter } = this.props;
+    const { navigation, onEvent } = this.props;
 
-    emitter.emit('willFocus', { target, data: payload });
+    onEvent(target, 'willFocus', payload);
 
     if (typeof navigation.state.isTransitioning !== 'boolean') {
-      emitter.emit('didFocus', { target, data: payload });
+      onEvent(target, 'didFocus', payload);
     }
   };
 
@@ -167,12 +168,12 @@ export default class NavigationEventManager extends React.Component {
    * @param {Payload} payload
    */
   _emitBlur = (target, payload) => {
-    const { navigation, emitter } = this.props;
+    const { navigation, onEvent } = this.props;
 
-    emitter.emit('willBlur', { target, data: payload });
+    onEvent(target, 'willBlur', payload);
 
     if (typeof navigation.state.isTransitioning !== 'boolean') {
-      emitter.emit('didBlur', { target, data: payload });
+      onEvent(target, 'didBlur', payload);
     }
   };
 

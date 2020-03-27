@@ -1,4 +1,5 @@
 import getNavigationActionCreators from './routers/getNavigationActionCreators';
+import getEventManager from './getEventManager';
 import getChildNavigation from './getChildNavigation';
 import getChildrenNavigationCache from './getChildrenNavigationCache';
 
@@ -10,6 +11,7 @@ export default function getNavigation(
   getScreenProps,
   getCurrentNavigation
 ) {
+  const emitter = getEventManager();
   const actions = router.getActionCreators(state, null);
 
   const navigation = {
@@ -19,7 +21,7 @@ export default function getNavigation(
     dispatch,
     getScreenProps,
     getChildNavigation: (childKey) =>
-      getChildNavigation(navigation, childKey, getCurrentNavigation),
+      getChildNavigation(navigation, childKey, getCurrentNavigation, emitter),
     isFocused: (childKey) => {
       const { routes, index } = getCurrentNavigation().state;
       if (childKey == null || routes[index].key === childKey) {
